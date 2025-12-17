@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Private Messages — Lanides & Mercy</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header centered">
+    <div class="container header-inner">
+      <div class="title-block">
+        <div class="brand big">PRIVATE MESSAGES</div>
+      </div>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="story.html">Our Story</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="login.html">Login</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="section">
+      <h2>Messages</h2>
+      <p>These messages are private — click Unlock and enter the family password to reveal each message.</p>
+
+      <div class="private-msg">
+        <h3>From Lanides to Mercy</h3>
+        <div class="locked" data-owner="lanides">
+          <div class="masked">••••••••</div>
+          <button class="unlock-btn" data-owner="lanides">Unlock</button>
+        </div>
+        <div class="message-content hidden" id="msg-lanides">
+          <p>My beloved Mercy, you are the heart of our home—your patience and care shape our family every day. You are not just a wonderful wife and mother, but an inspiring teacher whose gentle guidance brightens the future of so many. I am proud to walk beside you as we build our life together.</p>
+        </div>
+      </div>
+
+      <div class="private-msg">
+        <h3>From Mercy to Lanides</h3>
+        <div class="locked" data-owner="mercy">
+          <div class="masked">••••••••</div>
+          <button class="unlock-btn" data-owner="mercy">Unlock</button>
+        </div>
+        <div class="message-content hidden" id="msg-mercy">
+          <p>My dear Lanides, your strength and steady presence guide our family. You are a supportive partner, a role model for our daughters, and your quiet courage makes our home a safe place. Thank you for building our family and showing love in so many practical, faithful ways.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">© Lanides & Mercy</div>
+  </footer>
+
+  <script src="scripts/main.js"></script>
+</body>
+</html>
